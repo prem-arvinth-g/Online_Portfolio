@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prem Arvinth G | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;500;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css?v=31" />
+</head>
+<body>
+  <div class="ambient ambient-top"></div>
+  <div class="ambient ambient-bottom"></div>
+
+  <!-- Decorative Background Shapes - Comic Style -->
+  <div class="bg-shapes" aria-hidden="true">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+    <div class="shape s3"></div>
+    <div class="shape s4"></div>
+    <div class="shape s5"></div>
+    <div class="shape s6"></div>
+    <div class="shape s7"></div>
+    <div class="shape s8"></div>
+    <div class="shape s9"></div>
+    <div class="shape s10"></div>
+    <div class="shape s11"></div>
+    <div class="shape s12"></div>
+  </div>
+
+  <main id="home">
+    <section class="hero reveal centered-hero">
+      <div class="main-brand">Prem Arvinth G</div>
+      <div class="circular-switcher it">
+        <div class="switcher-track prev" onclick="prevPersona()">
+          <span class="arrow">‹</span>
+        </div>
+        
+        <div class="profile-flip-container" onclick="nextPersona()">
+          <div id="profile-flipper" class="profile-flipper">
+            <div class="profile-img-slot it active">
+              <img src="assets/profile_it.jpg?v=1" alt="Prem Arvinth - IT" />
+            </div>
+            <div class="profile-img-slot design">
+              <img src="assets/profile_design.jpg?v=1" alt="Prem Arvinth - Design" />
+            </div>
+            <div class="profile-img-slot ece">
+              <img src="assets/profile_it.jpg?v=2" alt="Prem Arvinth - ECE" />
+            </div>
+          </div>
+        </div>
+
+        <div class="switcher-track next" onclick="nextPersona()">
+          <span class="arrow">›</span>
+        </div>
+      </div>
+
+      <div id="hero-text-it" class="hero-text-block persona-it active">
+        <h1>Data-focused builder and analyst.</h1>
+        <p class="lead">Graduated ECE student specializing in Python, SQL, and AI-driven analytics dashboards.</p>
+        <div class="hero-actions">
+          <div class="dropdown">
+            <div class="button primary" tabindex="0">Download Resumes ▾</div>
+            <div class="dropdown-content">
+              <a href="assets/resume/Prem_Arvinth_G_DataAnalyst_Resume.pdf" download>Data Analyst</a>
+              <a href="assets/resume/Prem_Arvinth_G_DataScience_Resume.pdf" download>Data Scientist</a>
+              <a href="assets/resume/Prem_Arvinth_G_PythonBackend_Resume.pdf" download>Python Developer</a>
+            </div>
+          </div>
+          <a class="button ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div id="hero-text-design" class="hero-text-block persona-design hidden">
+        <h1>Creative Visual Artist & Videographer.</h1>
+        <p class="lead">Passionate photographer, video editor, and Blender enthusiast creating immersive digital stories.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#photography">View My Work</a>
+          <a class="button ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div id="hero-text-ece" class="hero-text-block persona-ece hidden">
+        <h1>Electronics & Communication Projects.</h1>
+        <p class="lead">Specializing in embedded systems, smart monitoring, and efficient hardware-software integration.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="assets/resume/Prem_Arvinth_G_ECE_Resume.pdf" download>Download ECE Resume</a>
+          <a class="button ghost" href="#persona-ece">View Projects</a>
+        </div>
+      </div>
+
+      <ul class="quick-info">
+        <li>Chennai, Tamil Nadu</li>
+        <li><a href="tel:+916383473936">+91 63834 73936</a></li>
+        <li><a href="mailto:premarvinthg@gmail.com">premarvinthg@gmail.com</a></li>
+        <li><a href="https://linkedin.com/in/prem-arvinthg" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/prem-arvinth-g" target="_blank" rel="noreferrer">GitHub</a></li>
+      </ul>
+    </section>
+
+    <!-- PERSONA: DATA & IT -->
+    <div id="persona-it" class="persona-content active">
+      <section id="about-it" class="section reveal">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am passionate about combining data analysis, AI, and visualization to solve practical problems. My core focus is on building intelligent systems&mdash;my recent work includes YOLOv8-based number plate detection, fraud analysis dashboards, retail growth reporting, and e-commerce insights. I am actively seeking roles in Data Science and Data Analysis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills-it" class="section reveal">
+        <h2>Technical Skills</h2>
+        <div class="skill-grid">
+          <article><h3>Languages</h3><p>Python, Java</p></article>
+          <article><h3>Data</h3><p>SQL, ETL, Data Cleaning</p></article>
+          <article><h3>Visualization</h3><p>Power BI (DAX), Excel</p></article>
+          <article><h3>Web</h3><p>HTML, CSS, Django, Bootstrap</p></article>
+          <article><h3>Libraries</h3><p>Pandas, NumPy, OpenCV, Matplotlib</p></article>
+          <article><h3>Tools</h3><p>Git, VS Code, PythonAnywhere</p></article>
+        </div>
+      </section>
+
+      <section id="projects-it" class="section reveal">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Number Plate Detection</h3>
+            <p>Built a real-time vehicle number plate detection pipeline using YOLOv8 and OCR.</p>
+            <span>Python • OpenCV • YOLOv8 • OCR</span>
+          </article>
+          <article class="card">
+            <h3>Stock Dashboard</h3>
+            <p>Designed an interactive dashboard to analyze stock trends and performance.</p>
+            <span>Power BI • Excel</span>
+          </article>
+          <article class="card">
+            <h3>Fraud Detection Dashboard</h3>
+            <p>Used DAX-driven fraud indicators to detect anomalies in sales data.</p>
+            <span>Power BI • DAX</span>
+          </article>
+          <article class="card">
+            <h3>Retail Sales Insights</h3>
+            <p>Analyzed e-commerce transactions with SQL CTEs to produce growth reports.</p>
+            <span>SQL • Power BI</span>
+          </article>
+          <article class="card">
+            <h3>E-Commerce Website</h3>
+            <p>Developed a responsive Django web application with product listings and cart workflow.</p>
+            <span>Django • Bootstrap • SQL</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="education-it" class="section reveal">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article>
+            <h3>B.E. Electronics & Communication Engineering — Anna University</h3>
+            <p>Sri Venkateswaraa College of Technology | 2022 - 2026 | CGPA: 7.51 / 10</p>
+          </article>
+          <article>
+            <h3>Higher Secondary (HSC) — Tamil Nadu State Board</h3>
+            <p>V.H.N Hr. Sec. School | 2022 | 75.16%</p>
+          </article>
+          <article>
+            <h3>SSLC — Tamil Nadu State Board</h3>
+            <p>V.H.N Hr. Sec. School | 2020 | 66.66%</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="achievements-it" class="section reveal">
+        <h2>Achievements</h2>
+        <ul class="highlight-list">
+          <li>Winner - Internal College Hackathon (Image Classification)</li>
+          <li>IoT Workshop - IIT Madras</li>
+          <li>Python for Everybody - University of Michigan</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- PERSONA: CREATIVE DESIGN -->
+    <div id="persona-design" class="persona-content hidden">
+      <section id="about-design" class="section reveal">
+        <h2>Creative Vision</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1.15rem;">3D, Video & Photography</h3>
+            <p>
+              I am a skilled 3D modeler, animator, video editor, and photographer. I specialize in Blender for 3D art and Adobe Creative Suite for media production. My creative background allows me to bridge the gap between technical logic and visual storytelling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills-design" class="section reveal">
+        <h2>Creative Skills</h2>
+        <div class="skill-grid">
+          <article><h3>3D Modeling</h3><p>Blender, Animation, Texturing</p></article>
+          <article><h3>Video Editing</h3><p>Premiere Pro, After Effects, DaVinci Resolve</p></article>
+          <article><h3>Photography</h3><p>Lightroom, Photoshop, Color Grading</p></article>
+        </div>
+      </section>
+
+      <section id="experience-design" class="section reveal">
+        <h2>Experience & Works</h2>
+        <div class="timeline">
+          <article>
+            <h3>Content Creator & 3D Artist</h3>
+            <p><a href="https://www.instagram.com/jk_editz_47/" target="_blank">@jk_editz_47</a> | <a href="https://www.instagram.com/jk_editz_3d_47/" target="_blank">@jk_editz_3d_47</a></p>
+            <p>Personal portfolio showcasing Blender animations and video edits.</p>
+          </article>
+          <article>
+            <h3>Freelance Video Editor</h3>
+            <p>Worked with <a href="https://www.youtube.com/@RamyaVeetuSamayal" target="_blank">Ramya Veetu Samayal</a> and <a href="https://www.instagram.com/iam_abhinivesh/" target="_blank">@iam_abhinivesh</a>.</p>
+            <p>Editing engaging content and reels for social media creators.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="photography" class="section reveal">
+        <h2>Photography Portfolio</h2>
+        <p>A selection of my photography work, shot and edited in Adobe Lightroom.</p>
+        <div class="swiper photography-slider">
+          <div class="swiper-wrapper" id="photo-slider-wrapper">
+            <!-- Dynamic Injection -->
+          </div>
+        </div>
+      </section>
+
+      <section id="youtube-client" class="section reveal">
+        <h2>Client YouTube Edits</h2>
+        <p>Selected video editing projects for the YouTube channel — <a href="https://www.youtube.com/@RamyaVeetuSamayal/videos" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@RamyaVeetuSamayal</a></p>
+        <div class="swiper video-slider">
+          <div class="swiper-wrapper" id="youtube-client-wrapper" style="padding: 1rem 0;">
+            <!-- JS dynamically injects YouTube slides here -->
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:1.5rem;">
+          <a class="button ghost" href="https://www.youtube.com/@RamyaVeetuSamayal/videos" target="_blank" rel="noreferrer">View Channel →</a>
+        </div>
+      </section>
+
+      <section id="instagram-reels" class="section reveal">
+        <h2>Instagram Reels</h2>
+        <p>Short-form edits and creative reels — <a href="https://www.instagram.com/jk_editz_47/" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@jk_editz_47</a></p>
+        <div class="swiper reel-slider">
+          <div class="swiper-wrapper" id="instagram-reels-wrapper" style="padding: 1rem 0;">
+            <!-- JS dynamically injects Insta Reels here -->
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:1.5rem;">
+          <a class="button ghost" href="https://www.instagram.com/jk_editz_47/" target="_blank" rel="noreferrer">View All on Instagram →</a>
+        </div>
+      </section>
+
+      <section id="client-works" class="section reveal">
+        <h2>Client Work &amp; Freelance Edits</h2>
+        <p>A selection of reels and video projects I've edited for my clients.</p>
+        <div class="swiper reel-slider">
+          <div class="swiper-wrapper" id="client-works-wrapper" style="padding: 1rem 0;">
+            <!-- JS dynamically injects Client Work Reels here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="blender-3d" class="section reveal">
+        <h2>3D Modeling &amp; Blender Art</h2>
+        <p>3D renders, animations, and Blender art from my dedicated page — <a href="https://www.instagram.com/jk_editz_3d_47/" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@jk_editz_3d_47</a></p>
+        <div class="swiper reel-slider">
+          <div class="swiper-wrapper" id="blender-3d-wrapper" style="padding: 1rem 0;">
+            <!-- JS dynamically injects 3D Work here -->
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:1.5rem;">
+          <a class="button primary" href="https://www.instagram.com/jk_editz_3d_47/" target="_blank" rel="noreferrer">View 3D Work on Instagram →</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- PERSONA: ECE ENGINEER -->
+    <div id="persona-ece" class="persona-content hidden">
+      <section id="about-ece" class="section reveal">
+        <h2>Electronics & Communication Engineering</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1.15rem;">Embedded Systems & IoT</h3>
+            <p>
+              As an ECE graduate, I focus on bridging the gap between physical hardware and digital monitoring. I specialize in developing IoT solutions that leverage microcontrollers (ESP32/ESP8266) and sensor integration to build efficient, real-time monitoring systems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills-ece" class="section reveal">
+        <h2>Embedded & Hardware Skills</h2>
+        <div class="skill-grid">
+          <article><h3>Microcontrollers</h3><p>ESP32, ESP8266, Arduino</p></article>
+          <article><h3>Communication</h3><p>WiFi, LoRa, ESP-NOW, HTTP</p></article>
+          <article><h3>Hardware</h3><p>LDR, Current Sensors, Rectifiers, PCB Basics</p></article>
+          <article><h3>Software</h3><p>Embedded C, Arduino IDE</p></article>
+        </div>
+      </section>
+
+      <section id="projects-ece" class="section reveal">
+        <h2>Major Project: Smart Street Light Monitoring</h2>
+        <div class="ece-project-detail">
+          <div class="ece-overview">
+            <p><strong>Goal:</strong> Automate fault detection and reduce maintenance delays in urban lighting systems. <a href="https://github.com/prem-arvinth-g/Automatic_Smart_Streetlight_Fault_Detection_and_Response_System/tree/main" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--primary); margin-left: 0.5rem;">View on GitHub</a></p>
+          </div>
+          
+          <div class="ece-grid" style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 1.5rem;">
+            <article class="card">
+              <h3>System Architecture</h3>
+              <p>Uses ESP32 as the brain, reading LDR (Light) and Current sensors. Data is sent via WiFi to a centralized web dashboard.</p>
+            </article>
+            <article class="card">
+              <h3>Fault Detection Logic</h3>
+              <p>Dual-sensor validation: If current is present but light is absent, a bulb failure is reported. If both are absent, a power failure is detected.</p>
+            </article>
+            <article class="card">
+              <h3>Web Dashboard</h3>
+              <p>Real-time status display (Green for Working, Red for Fault) with event-driven updates to reduce network load.</p>
+            </article>
+          </div>
+          
+          <div class="ece-technical" style="margin-top: 1.5rem; padding: 1rem; background: rgba(2, 132, 199, 0.05); border-radius: 12px; border-left: 4px solid var(--primary);">
+            <h3 style="margin-bottom: 0.5rem;">Technical Specifications</h3>
+            <ul class="highlight-list">
+              <li><strong>Sensors:</strong> LDR (Brightness), Current Sensor (Power Flow)</li>
+              <li><strong>Power:</strong> AC to DC via Bridge Rectifier</li>
+              <li><strong>ADC:</strong> Raw ADC to Voltage calculation for accurate thresholds</li>
+              <li><strong>Scalability:</strong> Ready for LoRa/GSM integration for long-range coverage</li>
+            </ul>
+          </div>
+
+          <div class="ece-gallery" style="margin-top: 2rem;">
+            <h3 style="margin-bottom: 1rem;">Project Implementation Gallery</h3>
+            <div class="project-gallery-grid" style="display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
+                <img src="assets/ECE_photos/Block Diagram/Block Diagram.jpg" alt="System Block Diagram"
+                  class="gallery-thumb"
+                  data-caption="Block Diagram"
+                  data-desc="Logical flow of sensor data from LDR & current sensors through the ESP32 to the centralized web dashboard."
+                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
+                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Block Diagram:</strong> Logical flow of sensor data to ESP32.</p>
+              </div>
+              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
+                <img src="assets/ECE_photos/Circuit Diagram/Street Light circuit diagram.png" alt="Circuit Diagram"
+                  class="gallery-thumb"
+                  data-caption="Circuit Diagram"
+                  data-desc="Detailed wiring schematic showing connections between the ESP32, LDR sensor, current sensor, relay module, and power supply."
+                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
+                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Circuitry:</strong> Detailed wiring for LDR and Current sensors.</p>
+              </div>
+              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
+                <img src="assets/ECE_photos/Hardware/WhatsApp Image 2026-03-23 at 8.53.10 PM.jpeg" alt="Hardware Prototype"
+                  class="gallery-thumb"
+                  data-caption="Hardware Prototype"
+                  data-desc="Physical prototype built on a general-purpose PCB, featuring the ESP32 module, LDR, current sensor, and bridge rectifier circuit assembled and wired for testing."
+                  style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;" />
+                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Hardware:</strong> Prototype build on general-purpose PCB.</p>
+              </div>
+              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
+                <img src="assets/ECE_photos/Simulation/Screenshot 2026-04-08 000420.png" alt="Simulation/Dashboard"
+                  class="gallery-thumb"
+                  data-caption="Web Dashboard — Live Monitoring"
+                  data-desc="Real-time web dashboard built with Django showing streetlight status per node (Green = Working, Red = Fault). Event-driven updates reduce unnecessary network polling."
+                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
+                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Dashboard:</strong> Real-time monitoring and alert interface.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education-ece" class="section reveal">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article>
+            <h3>B.E. Electronics & Communication Engineering — Anna University</h3>
+            <p>Sri Venkateswaraa College of Technology | 2022 - 2026 | CGPA: 7.51 / 10</p>
+          </article>
+          <article>
+            <h3>Higher Secondary (HSC) — Tamil Nadu State Board</h3>
+            <p>V.H.N Hr. Sec. School | 2022 | 75.16%</p>
+          </article>
+          <article>
+            <h3>SSLC — Tamil Nadu State Board</h3>
+            <p>V.H.N Hr. Sec. School | 2020 | 66.66%</p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <section id="contact" class="section contact reveal">
+      <h2>Let’s Work Together</h2>
+      <p>Whether it's data analytics or a creative visual project, I'm ready to collaborate.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="mailto:premarvinthg@gmail.com">Email Me</a>
+        <a class="button ghost" href="https://linkedin.com/in/prem-arvinthg" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Prem Arvinth G</p>
+  </footer>
+
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-inner" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">&#10005;</button>
+      <img id="lightbox-img" src="" alt="" class="lightbox-img" />
+      <div class="lightbox-info">
+        <h3 id="lightbox-caption"></h3>
+        <p id="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Video Player Modal -->
+  <div id="video-modal" class="video-modal" onclick="closeVideoModal()">
+    <div class="video-modal-inner" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeVideoModal()">&#10005;</button>
+      <div class="video-modal-title" id="video-modal-title"></div>
+      <div class="video-responsive">
+        <iframe id="video-modal-iframe" src="" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js?v=9"></script>
+</body>
+</html>
