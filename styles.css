@@ -296,6 +296,11 @@ main {
   margin-bottom: 1.4rem;
   position: relative;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
+  z-index: 1; /* Default z-index for sections */
+}
+
+.hero {
+  z-index: 10; /* Ensure hero (and its dropdowns) stays on top of other sections */
 }
 
 .section:hover {
