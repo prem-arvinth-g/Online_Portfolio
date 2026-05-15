@@ -20,6 +20,12 @@ function switchPersona(type) {
     slot.classList.toggle('active', slot.classList.contains(type));
   });
 
+  // Update Indicators
+  const indicatorIndex = personas.indexOf(type);
+  document.querySelectorAll('.indicator').forEach((ind, i) => {
+    ind.classList.toggle('active', i === indicatorIndex);
+  });
+
   // Toggle Hero Text Blocks
   document.querySelectorAll('.hero-text-block').forEach(block => {
     block.classList.add('hidden');

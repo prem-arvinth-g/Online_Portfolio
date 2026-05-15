@@ -309,6 +309,61 @@ main {
 }
 
 /* =============================================
+   PERSONA INDICATORS (1, 2, 3)
+   ============================================= */
+
+.persona-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+  z-index: 10;
+}
+
+.persona-indicators .indicator {
+  font-family: "Bangers", cursive;
+  font-size: 1.8rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 0.35;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.persona-indicators .indicator:hover {
+  opacity: 0.7;
+  transform: translateY(-3px) scale(1.1);
+}
+
+.persona-indicators .indicator.active {
+  opacity: 1;
+  transform: scale(1.15);
+  pointer-events: none;
+}
+
+/* Persona-specific active glow */
+.hero.it .indicator.active {
+  color: var(--primary);
+  text-shadow: 0 0 6px rgba(190, 30, 45, 0.4);
+}
+
+.hero.design .indicator.active {
+  color: var(--accent2);
+  text-shadow: 0 0 6px rgba(245, 196, 0, 0.5);
+}
+
+.hero.ece .indicator.active {
+  color: var(--accent);
+  text-shadow: 0 0 6px rgba(26, 35, 126, 0.4);
+}
+
+/* =============================================
    CIRCULAR SWITCHER
    ============================================= */
 
