@@ -1,6 +1,6 @@
 let currentPersona = 'it';
 let swiperInstance = null;
-const personas = ['it', 'design', 'ece'];
+const personas = ['it', 'ece'];
 
 function switchPersona(type) {
   if (type === currentPersona) return;

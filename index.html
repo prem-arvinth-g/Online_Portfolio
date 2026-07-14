@@ -34,8 +34,7 @@
     <section class="hero reveal centered-hero">
       <div class="persona-indicators">
         <span class="indicator active" onclick="switchPersona('it')" title="Data & IT">1</span>
-        <span class="indicator" onclick="switchPersona('design')" title="Creative Design">2</span>
-        <span class="indicator" onclick="switchPersona('ece')" title="ECE Engineering">3</span>
+        <span class="indicator" onclick="switchPersona('ece')" title="ECE Engineering">2</span>
       </div>
       <div class="circular-switcher it">
         <div class="switcher-track prev" onclick="prevPersona()">
@@ -46,9 +45,6 @@
           <div id="profile-flipper" class="profile-flipper">
             <div class="profile-img-slot it active">
               <img src="assets/profile_it.jpg?v=1" alt="Prem Arvinth - IT" />
-            </div>
-            <div class="profile-img-slot design">
-              <img src="assets/profile_design.jpg?v=1" alt="Prem Arvinth - Design" />
             </div>
             <div class="profile-img-slot ece">
               <img src="assets/profile_it.jpg?v=2" alt="Prem Arvinth - ECE" />
@@ -73,15 +69,6 @@
               <a href="assets/resume/Prem_Arvinth_G_PythonBackend_Resume.pdf" download>Python Developer</a>
             </div>
           </div>
-          <a class="button ghost" href="#contact">Contact Me</a>
-        </div>
-      </div>
-
-      <div id="hero-text-design" class="hero-text-block persona-design hidden">
-        <h1>Creative Visual Artist & Videographer.</h1>
-        <p class="lead">Passionate photographer, video editor, and Blender enthusiast creating immersive digital stories.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#photography">View My Work</a>
           <a class="button ghost" href="#contact">Contact Me</a>
         </div>
       </div>
@@ -185,105 +172,6 @@
           <li>IoT Workshop - IIT Madras</li>
           <li>Python for Everybody - University of Michigan</li>
         </ul>
-      </section>
-    </div>
-
-    <!-- PERSONA: CREATIVE DESIGN -->
-    <div id="persona-design" class="persona-content hidden">
-      <section id="about-design" class="section reveal">
-        <h2>Creative Vision</h2>
-        <div class="about-grid">
-          <div class="about-text">
-            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1.15rem;">3D, Video & Photography</h3>
-            <p>
-              I am a skilled 3D modeler, animator, video editor, and photographer. I specialize in Blender for 3D art and Adobe Creative Suite for media production. My creative background allows me to bridge the gap between technical logic and visual storytelling.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills-design" class="section reveal">
-        <h2>Creative Skills</h2>
-        <div class="skill-grid">
-          <article><h3>3D Modeling</h3><p>Blender, Animation, Texturing</p></article>
-          <article><h3>Video Editing</h3><p>Premiere Pro, After Effects, DaVinci Resolve</p></article>
-          <article><h3>Photography</h3><p>Lightroom, Photoshop, Color Grading</p></article>
-        </div>
-      </section>
-
-      <section id="experience-design" class="section reveal">
-        <h2>Experience & Works</h2>
-        <div class="timeline">
-          <article>
-            <h3>Content Creator & 3D Artist</h3>
-            <p><a href="https://www.instagram.com/jk_editz_47/" target="_blank">@jk_editz_47</a> | <a href="https://www.instagram.com/jk_editz_3d_47/" target="_blank">@jk_editz_3d_47</a></p>
-            <p>Personal portfolio showcasing Blender animations and video edits.</p>
-          </article>
-          <article>
-            <h3>Freelance Video Editor</h3>
-            <p>Worked with <a href="https://www.youtube.com/@RamyaVeetuSamayal" target="_blank">Ramya Veetu Samayal</a> and <a href="https://www.instagram.com/iam_abhinivesh/" target="_blank">@iam_abhinivesh</a>.</p>
-            <p>Editing engaging content and reels for social media creators.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="photography" class="section reveal">
-        <h2>Photography Portfolio</h2>
-        <p>A selection of my photography work, shot and edited in Adobe Lightroom.</p>
-        <div class="swiper photography-slider">
-          <div class="swiper-wrapper" id="photo-slider-wrapper">
-            <!-- Dynamic Injection -->
-          </div>
-        </div>
-      </section>
-
-      <section id="youtube-client" class="section reveal">
-        <h2>Client YouTube Edits</h2>
-        <p>Selected video editing projects for the YouTube channel — <a href="https://www.youtube.com/@RamyaVeetuSamayal/videos" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@RamyaVeetuSamayal</a></p>
-        <div class="swiper video-slider">
-          <div class="swiper-wrapper" id="youtube-client-wrapper" style="padding: 1rem 0;">
-            <!-- JS dynamically injects YouTube slides here -->
-          </div>
-        </div>
-        <div style="text-align:center; margin-top:1.5rem;">
-          <a class="button ghost" href="https://www.youtube.com/@RamyaVeetuSamayal/videos" target="_blank" rel="noreferrer">View Channel →</a>
-        </div>
-      </section>
-
-      <section id="instagram-reels" class="section reveal">
-        <h2>Instagram Reels</h2>
-        <p>Short-form edits and creative reels — <a href="https://www.instagram.com/jk_editz_47/" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@jk_editz_47</a></p>
-        <div class="swiper reel-slider">
-          <div class="swiper-wrapper" id="instagram-reels-wrapper" style="padding: 1rem 0;">
-            <!-- JS dynamically injects Insta Reels here -->
-          </div>
-        </div>
-        <div style="text-align:center; margin-top:1.5rem;">
-          <a class="button ghost" href="https://www.instagram.com/jk_editz_47/" target="_blank" rel="noreferrer">View All on Instagram →</a>
-        </div>
-      </section>
-
-      <section id="client-works" class="section reveal">
-        <h2>Client Work &amp; Freelance Edits</h2>
-        <p>A selection of reels and video projects I've edited for my clients.</p>
-        <div class="swiper reel-slider">
-          <div class="swiper-wrapper" id="client-works-wrapper" style="padding: 1rem 0;">
-            <!-- JS dynamically injects Client Work Reels here -->
-          </div>
-        </div>
-      </section>
-
-      <section id="blender-3d" class="section reveal">
-        <h2>3D Modeling &amp; Blender Art</h2>
-        <p>3D renders, animations, and Blender art from my dedicated page — <a href="https://www.instagram.com/jk_editz_3d_47/" target="_blank" rel="noreferrer" style="color:var(--primary);font-weight:600;">@jk_editz_3d_47</a></p>
-        <div class="swiper reel-slider">
-          <div class="swiper-wrapper" id="blender-3d-wrapper" style="padding: 1rem 0;">
-            <!-- JS dynamically injects 3D Work here -->
-          </div>
-        </div>
-        <div style="text-align:center; margin-top:1.5rem;">
-          <a class="button primary" href="https://www.instagram.com/jk_editz_3d_47/" target="_blank" rel="noreferrer">View 3D Work on Instagram →</a>
-        </div>
       </section>
     </div>
 
