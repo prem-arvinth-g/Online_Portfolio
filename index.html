@@ -2,316 +2,288 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prem Arvinth G | Portfolio</title>
-  <meta name="description" content="Portfolio of Prem Arvinth G — Data Analyst, ECE Engineer and Python Developer." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prem Arvinth G | Full-Stack .NET Developer</title>
+  <meta name="description" content="Prem Arvinth G is a full-stack .NET developer at Russell Tobin, Chennai, building Angular front ends, C# / ASP.NET APIs and SQL Server databases." />
+  <meta name="theme-color" content="#15112a" />
+  <meta property="og:title" content="Prem Arvinth G | Full-Stack .NET Developer" />
+  <meta property="og:description" content="Angular, C#, ASP.NET Core and SQL Server: building clean UIs and reliable APIs." />
+  <meta property="og:image" content="assets/prem.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315112a'/%3E%3Crect x='12' y='18' width='26' height='7' rx='3.5' fill='%23f2708a'/%3E%3Crect x='20' y='29' width='30' height='7' rx='3.5' fill='%23a08cff'/%3E%3Crect x='28' y='40' width='22' height='7' rx='3.5' fill='%23f4be55'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;500;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=31" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("intro")</script>
 </head>
 <body>
-  <div class="ambient ambient-top"></div>
-  <div class="ambient ambient-bottom"></div>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <!-- Decorative Background Shapes - Comic Style -->
-  <div class="bg-shapes" aria-hidden="true">
-    <div class="shape s1"></div>
-    <div class="shape s2"></div>
-    <div class="shape s3"></div>
-    <div class="shape s4"></div>
-    <div class="shape s5"></div>
-    <div class="shape s6"></div>
-    <div class="shape s7"></div>
-    <div class="shape s8"></div>
-    <div class="shape s9"></div>
-    <div class="shape s10"></div>
-    <div class="shape s11"></div>
-    <div class="shape s12"></div>
-  </div>
-
-  <main id="home">
-    <section class="hero reveal centered-hero">
-      <div class="circular-switcher it">
-        <div class="switcher-track prev" onclick="prevPersona()">
-          <span class="arrow">‹</span>
-        </div>
-
-        <div class="profile-flip-container" onclick="nextPersona()">
-          <div id="profile-flipper" class="profile-flipper">
-            <div class="profile-img-slot it active">
-              <img src="assets/profile_it.jpg?v=1" alt="Prem Arvinth - IT" />
-            </div>
-            <div class="profile-img-slot ece">
-              <img src="assets/profile_it.jpg?v=2" alt="Prem Arvinth - ECE" />
-            </div>
-          </div>
-        </div>
-
-        <div class="switcher-track next" onclick="nextPersona()">
-          <span class="arrow">›</span>
-        </div>
-      </div>
-
-      <div id="hero-text-it" class="hero-text-block persona-it active">
-        <h1>Data-focused builder and analyst.</h1>
-        <p class="lead">Graduated ECE student specializing in Python, SQL, and AI-driven analytics dashboards.</p>
-        <div class="hero-actions">
-          <div class="dropdown">
-            <div class="button primary" tabindex="0">Download Resumes ▾</div>
-            <div class="dropdown-content">
-              <a href="assets/resume/Prem_Arvinth_G_DataAnalyst_Resume.pdf" download>Data Analyst</a>
-              <a href="assets/resume/Prem_Arvinth_G_DataScience_Resume.pdf" download>Data Scientist</a>
-              <a href="assets/resume/Prem_Arvinth_G_PythonBackend_Resume.pdf" download>Python Developer</a>
-            </div>
-          </div>
-          <a class="button ghost" href="#contact">Contact Me</a>
-        </div>
-      </div>
-
-      <div id="hero-text-ece" class="hero-text-block persona-ece hidden">
-        <h1>Electronics &amp; Communication Projects.</h1>
-        <p class="lead">Specializing in embedded systems, smart monitoring, and efficient hardware-software integration.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="assets/resume/Prem_Arvinth_G_ECE_Resume.pdf" download>Download ECE Resume</a>
-          <a class="button ghost" href="#persona-ece">View Projects</a>
-        </div>
-      </div>
-
-      <ul class="quick-info">
-        <li>Chennai, Tamil Nadu</li>
-        <li><a href="tel:+916383473936">+91 63834 73936</a></li>
-        <li><a href="mailto:premarvinthg@gmail.com">premarvinthg@gmail.com</a></li>
-        <li><a href="https://linkedin.com/in/prem-arvinthg" target="_blank" rel="noreferrer">LinkedIn</a></li>
-        <li><a href="https://github.com/prem-arvinth-g" target="_blank" rel="noreferrer">GitHub</a></li>
+  <header class="nav" id="nav">
+    <a class="nav-mark" href="#top" aria-label="Prem Arvinth G, back to top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="4" y="9" width="17" height="5" rx="2.5" class="f-ui"/><rect x="10" y="17.5" width="22" height="5" rx="2.5" class="f-api"/><rect x="16" y="26" width="16" height="5" rx="2.5" class="f-data"/></svg>
+      <span>Prem Arvinth G</span>
+    </a>
+    <nav aria-label="Sections">
+      <ul class="nav-links">
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#now">Now</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#path">Path</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+    </nav>
+    <button class="kbd-btn" id="palette-open" type="button" aria-haspopup="dialog" aria-controls="palette">
+      <span class="kbd-label">Jump to</span><kbd>Ctrl</kbd><kbd>K</kbd>
+    </button>
+    <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  </header>
+
+  <main id="main">
+    <!-- ───────── HERO ───────── -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-status"><span class="pulse" aria-hidden="true"></span>Software Developer at Russell Tobin, Chennai</p>
+        <h1 id="hero-title" class="hero-title">
+          <span class="line"><span class="line-inner">Prem</span></span>
+          <span class="line"><span class="line-inner">Arvinth G</span></span>
+        </h1>
+        <p class="hero-lede">
+          I build full-stack .NET applications: Angular screens people find simple,
+          C#&nbsp;/&nbsp;ASP.NET APIs that behave predictably, and SQL Server databases underneath.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="mailto:premarvinthg@gmail.com">Email me</a>
+          <a class="btn btn-line" href="#work">See my projects</a>
+        </div>
+      </div>
+
+      <figure class="trace" id="trace" aria-label="Animated request trace: an Angular page calls an ASP.NET API, which queries SQL Server and returns my profile">
+        <div class="trace-head">
+          <span class="verb">GET</span>
+          <span class="route">/api/developers/prem-arvinth</span>
+          <span class="status" id="trace-status">pending</span>
+        </div>
+        <div class="trace-scale" aria-hidden="true">
+          <span>0 ms</span><span>12</span><span>24</span><span>36</span><span>48 ms</span>
+        </div>
+        <ol class="spans" id="spans">
+          <!-- filled by main.js -->
+        </ol>
+        <div class="trace-legend" aria-hidden="true">
+          <span class="lg lg-ui">Angular</span>
+          <span class="lg lg-api">ASP.NET</span>
+          <span class="lg lg-data">SQL Server</span>
+        </div>
+        <pre class="response" id="response" aria-hidden="true"></pre>
+        <figcaption class="sr-only">Response: name Prem Arvinth G, role Software Developer at Russell Tobin since August 2026, stack Angular, C#, ASP.NET Core and SQL Server, based in Chennai.</figcaption>
+      </figure>
     </section>
 
-    <!-- PERSONA: DATA & IT -->
-    <div id="persona-it" class="persona-content active">
-      <section id="about-it" class="section reveal">
-        <h2>About Me</h2>
-        <div class="about-grid">
-          <div class="about-text">
-            <p>
-              I am passionate about combining data analysis, AI, and visualization to solve practical problems. My core focus is on building intelligent systems&mdash;my recent work includes YOLOv8-based number plate detection, fraud analysis dashboards, retail growth reporting, and e-commerce insights. I am actively seeking roles in Data Science and Data Analysis.
+    <!-- ───────── STACK ───────── -->
+    <section class="stack" id="stack" aria-labelledby="stack-title">
+      <div class="stack-pin">
+        <div class="stack-visual" aria-hidden="true">
+          <svg class="stack-svg" viewBox="0 0 360 440">
+            <defs>
+              <linearGradient id="wire" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f2708a"/><stop offset=".5" stop-color="#a08cff"/><stop offset="1" stop-color="#f4be55"/>
+              </linearGradient>
+            </defs>
+            <path class="wire" d="M180 30 V410" />
+            <g class="slab slab-ui" data-layer="ui">
+              <path d="M180 40 L330 100 L180 160 L30 100 Z" />
+              <text x="180" y="106">Interface</text>
+            </g>
+            <g class="slab slab-api" data-layer="api">
+              <path d="M180 160 L330 220 L180 280 L30 220 Z" />
+              <text x="180" y="226">API</text>
+            </g>
+            <g class="slab slab-data" data-layer="data">
+              <path d="M180 280 L330 340 L180 400 L30 340 Z" />
+              <text x="180" y="346">Data</text>
+            </g>
+            <circle class="packet" id="packet" cx="180" cy="40" r="7" />
+          </svg>
+          <p class="packet-label" id="packet-label">request ↓</p>
+        </div>
+
+        <div class="stack-text">
+          <h2 id="stack-title" class="section-title">One request,<br />three layers.</h2>
+          <p class="section-intro">Every feature I ship travels the same path. Here's what I do at each stop.</p>
+
+          <article class="layer" data-layer="ui" id="layer-ui">
+            <h3><span class="dot dot-ui" aria-hidden="true"></span>Interface</h3>
+            <p>Responsive screens and reusable components in Angular and TypeScript, built so the next developer can read them and the user never has to think twice.</p>
+            <ul class="tags"><li>Angular</li><li>TypeScript</li><li>HTML</li><li>CSS</li><li>React</li><li>Bootstrap</li></ul>
+          </article>
+
+          <article class="layer" data-layer="api" id="layer-api">
+            <h3><span class="dot dot-api" aria-hidden="true"></span>API</h3>
+            <p>REST endpoints and business logic in C#. Controllers stay thin, services do the work, and responses are consistent enough that the front end can rely on them.</p>
+            <ul class="tags"><li>C#</li><li>ASP.NET Core</li><li>Web API</li><li>Entity Framework</li><li>LINQ</li><li>.NET Framework</li><li>Django REST</li></ul>
+          </article>
+
+          <article class="layer" data-layer="data" id="layer-data">
+            <h3><span class="dot dot-data" aria-hidden="true"></span>Data</h3>
+            <p>Tables, T-SQL queries and stored procedures in Microsoft SQL Server. Before .NET I spent a year analysing data, so I write queries thinking about what the numbers will be used for.</p>
+            <ul class="tags"><li>SQL Server</li><li>T-SQL</li><li>Stored procedures</li><li>MySQL</li><li>PostgreSQL</li><li>Power BI</li></ul>
+          </article>
+
+          <p class="toolbox"><strong>Also in the toolbox:</strong> Git, Python, Django, Pandas, OpenCV, YOLOv8, ESP32 and embedded C.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── NOW ───────── -->
+    <section class="now" id="now" aria-labelledby="now-title">
+      <div class="now-grid">
+        <div class="now-photo">
+          <img src="assets/prem.jpg?v=2" alt="Portrait of Prem Arvinth G" width="792" height="990" loading="lazy" />
+        </div>
+        <div class="now-body">
+          <h2 id="now-title" class="section-title">Right now</h2>
+          <div class="role">
+            <h3>Software Developer</h3>
+            <p class="role-meta">
+              <a href="https://www.russelltobin.com/" target="_blank" rel="noopener">Russell Tobin</a>,
+              full-time and on-site in Chennai. Since August 2026 (<span id="tenure">3 months</span>).
             </p>
           </div>
+          <ul class="duties">
+            <li><span class="dot dot-ui" aria-hidden="true"></span>Build responsive front-end screens and reusable components in Angular and TypeScript.</li>
+            <li><span class="dot dot-api" aria-hidden="true"></span>Develop REST APIs and business logic in C# / ASP.NET.</li>
+            <li><span class="dot dot-data" aria-hidden="true"></span>Design tables, write T-SQL queries and stored procedures in Microsoft SQL Server.</li>
+            <li><span class="dot dot-git" aria-hidden="true"></span>Work with the team on code reviews, bug fixes and releases using Git.</li>
+          </ul>
+          <blockquote class="belief">
+            I like code that's easy to read and change, APIs that behave predictably, and screens that feel simple to use.
+          </blockquote>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="skills-it" class="section reveal">
-        <h2>Technical Skills</h2>
-        <div class="skill-grid">
-          <article><h3>Languages</h3><p>Python, Java</p></article>
-          <article><h3>Data</h3><p>SQL, ETL, Data Cleaning</p></article>
-          <article><h3>Visualization</h3><p>Power BI (DAX), Excel</p></article>
-          <article><h3>Web</h3><p>HTML, CSS, Django, Bootstrap</p></article>
-          <article><h3>Libraries</h3><p>Pandas, NumPy, OpenCV, Matplotlib</p></article>
-          <article><h3>Tools</h3><p>Git, VS Code, PythonAnywhere</p></article>
+    <!-- ───────── WORK ───────── -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work-head">
+        <h2 id="work-title" class="section-title">Things I've built</h2>
+        <div class="filters" role="group" aria-label="Filter projects by layer">
+          <button type="button" class="filter is-on" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-filter="ui" aria-pressed="false"><span class="dot dot-ui" aria-hidden="true"></span>Interface</button>
+          <button type="button" class="filter" data-filter="api" aria-pressed="false"><span class="dot dot-api" aria-hidden="true"></span>API</button>
+          <button type="button" class="filter" data-filter="data" aria-pressed="false"><span class="dot dot-data" aria-hidden="true"></span>Data</button>
+          <button type="button" class="filter" data-filter="hw" aria-pressed="false"><span class="dot dot-hw" aria-hidden="true"></span>Hardware &amp; ML</button>
         </div>
-      </section>
+      </div>
 
-      <section id="projects-it" class="section reveal">
-        <h2>Projects</h2>
-        <div class="project-grid">
-          <article class="card">
-            <h3>Number Plate Detection</h3>
-            <p>Built a real-time vehicle number plate detection pipeline using YOLOv8 and OCR.</p>
-            <span>Python • OpenCV • YOLOv8 • OCR</span>
-          </article>
-          <article class="card">
-            <h3>Stock Dashboard</h3>
-            <p>Designed an interactive dashboard to analyze stock trends and performance.</p>
-            <span>Power BI • Excel</span>
-          </article>
-          <article class="card">
-            <h3>Fraud Detection Dashboard</h3>
-            <p>Used DAX-driven fraud indicators to detect anomalies in sales data.</p>
-            <span>Power BI • DAX</span>
-          </article>
-          <article class="card">
-            <h3>Retail Sales Insights</h3>
-            <p>Analyzed e-commerce transactions with SQL CTEs to produce growth reports.</p>
-            <span>SQL • Power BI</span>
-          </article>
-          <article class="card">
-            <h3>E-Commerce Website</h3>
-            <p>Developed a responsive Django web application with product listings and cart workflow.</p>
-            <span>Django • Bootstrap • SQL</span>
-          </article>
-        </div>
-      </section>
+      <ol class="projects" id="projects">
+        <!-- rendered by main.js from PROJECTS -->
+      </ol>
+      <p class="more-work">More on <a href="https://github.com/prem-arvinth-g" target="_blank" rel="noopener">github.com/prem-arvinth-g</a>.</p>
+    </section>
 
-      <section id="education-it" class="section reveal">
-        <h2>Education</h2>
-        <div class="timeline">
-          <article>
-            <h3>B.E. Electronics &amp; Communication Engineering — Anna University</h3>
-            <p>Sri Venkateswaraa College of Technology | 2022 - 2026 | CGPA: 7.51 / 10</p>
-          </article>
-          <article>
-            <h3>Higher Secondary (HSC) — Tamil Nadu State Board</h3>
-            <p>V.H.N Hr. Sec. School | 2022 | 75.16%</p>
-          </article>
-          <article>
-            <h3>SSLC — Tamil Nadu State Board</h3>
-            <p>V.H.N Hr. Sec. School | 2020 | 66.66%</p>
-          </article>
-        </div>
-      </section>
+    <!-- ───────── PATH ───────── -->
+    <section class="path" id="path" aria-labelledby="path-title">
+      <div class="path-inner">
+      <h2 id="path-title" class="section-title">How I got here</h2>
+      <p class="section-intro">From circuits to dashboards to full-stack .NET. Each stop added a layer.</p>
+      <ol class="timeline" id="timeline">
+        <li>
+          <time datetime="2022">2022</time>
+          <div>
+            <h3>Started Electronics &amp; Communication Engineering</h3>
+            <p>B.E. at Sri Venkateswaraa College of Technology (Anna University), 2022 to 2026, CGPA 7.51. Embedded systems, IoT and circuit design.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2025">2025</time>
+          <div>
+            <h3>Fell into data</h3>
+            <p>Power BI dashboards for fraud and stock analysis, SQL with CTEs and window functions on retail sales, and Python for cleaning messy data.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2025">2025</time>
+          <div>
+            <h3>Started shipping software</h3>
+            <p>A Django e-commerce site deployed on PythonAnywhere, and a YOLOv8 number-plate recogniser. I also won the internal college hackathon with an image-classification model.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-03">2026</time>
+          <div>
+            <h3>Final-year project, published</h3>
+            <p>The smart streetlight fault detector: ESP32 hardware, a live web dashboard, an IEEE-format paper, and a conference presentation.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-07">Jul 2026</time>
+          <div>
+            <h3>Picked up .NET</h3>
+            <p>Built a role-based student management system in ASP.NET Core MVC with Entity Framework migrations and MySQL.</p>
+          </div>
+        </li>
+        <li class="is-now">
+          <time datetime="2026-08">Aug 2026</time>
+          <div>
+            <h3>Joined Russell Tobin</h3>
+            <p>Software Developer on enterprise web applications: Angular, C# / ASP.NET and SQL Server.</p>
+          </div>
+        </li>
+      </ol>
 
-      <section id="achievements-it" class="section reveal">
-        <h2>Achievements</h2>
-        <ul class="highlight-list">
-          <li>Winner - Internal College Hackathon (Image Classification)</li>
-          <li>IoT Workshop - IIT Madras</li>
-          <li>Python for Everybody - University of Michigan</li>
+      <div class="recog">
+        <h3 class="recog-title">Recognition and learning</h3>
+        <ul>
+          <li><strong>Winner</strong> Internal college hackathon (image classification)</li>
+          <li><strong>Conference presentation</strong> Smart Streetlight Fault Detection &amp; Response System</li>
+          <li><strong>IoT workshop</strong> IIT Madras</li>
+          <li><strong>Python for Everybody</strong> University of Michigan</li>
         </ul>
-      </section>
-    </div>
+      </div>
+      </div>
+    </section>
 
-    <!-- PERSONA: ECE ENGINEER -->
-    <div id="persona-ece" class="persona-content hidden">
-      <section id="about-ece" class="section reveal">
-        <h2>Electronics &amp; Communication Engineering</h2>
-        <div class="about-grid">
-          <div class="about-text">
-            <h3 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1.15rem;">Embedded Systems &amp; IoT</h3>
-            <p>
-              As an ECE graduate, I focus on bridging the gap between physical hardware and digital monitoring. I specialize in developing IoT solutions that leverage microcontrollers (ESP32/ESP8266) and sensor integration to build efficient, real-time monitoring systems.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills-ece" class="section reveal">
-        <h2>Embedded &amp; Hardware Skills</h2>
-        <div class="skill-grid">
-          <article><h3>Microcontrollers</h3><p>ESP32, ESP8266, Arduino</p></article>
-          <article><h3>Communication</h3><p>WiFi, LoRa, ESP-NOW, HTTP</p></article>
-          <article><h3>Hardware</h3><p>LDR, Current Sensors, Rectifiers, PCB Basics</p></article>
-          <article><h3>Software</h3><p>Embedded C, Arduino IDE</p></article>
-        </div>
-      </section>
-
-      <section id="projects-ece" class="section reveal">
-        <h2>Major Project: Smart Street Light Monitoring</h2>
-        <div class="ece-project-detail">
-          <div class="ece-overview">
-            <p><strong>Goal:</strong> Automate fault detection and reduce maintenance delays in urban lighting systems. <a href="https://github.com/prem-arvinth-g/Automatic_Smart_Streetlight_Fault_Detection_and_Response_System/tree/main" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--primary); margin-left: 0.5rem;">View on GitHub</a></p>
-          </div>
-
-          <div class="ece-grid" style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 1.5rem;">
-            <article class="card">
-              <h3>System Architecture</h3>
-              <p>Uses ESP32 as the brain, reading LDR (Light) and Current sensors. Data is sent via WiFi to a centralized web dashboard.</p>
-            </article>
-            <article class="card">
-              <h3>Fault Detection Logic</h3>
-              <p>Dual-sensor validation: If current is present but light is absent, a bulb failure is reported. If both are absent, a power failure is detected.</p>
-            </article>
-            <article class="card">
-              <h3>Web Dashboard</h3>
-              <p>Real-time status display (Green for Working, Red for Fault) with event-driven updates to reduce network load.</p>
-            </article>
-          </div>
-
-          <div class="ece-technical" style="margin-top: 1.5rem; padding: 1rem; background: rgba(2, 132, 199, 0.05); border-radius: 12px; border-left: 4px solid var(--primary);">
-            <h3 style="margin-bottom: 0.5rem;">Technical Specifications</h3>
-            <ul class="highlight-list">
-              <li><strong>Sensors:</strong> LDR (Brightness), Current Sensor (Power Flow)</li>
-              <li><strong>Power:</strong> AC to DC via Bridge Rectifier</li>
-              <li><strong>ADC:</strong> Raw ADC to Voltage calculation for accurate thresholds</li>
-              <li><strong>Scalability:</strong> Ready for LoRa/GSM integration for long-range coverage</li>
-            </ul>
-          </div>
-
-          <div class="ece-gallery" style="margin-top: 2rem;">
-            <h3 style="margin-bottom: 1rem;">Project Implementation Gallery</h3>
-            <div class="project-gallery-grid" style="display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
-              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
-                <img src="assets/ECE_photos/Block Diagram/Block Diagram.jpg" alt="System Block Diagram"
-                  class="gallery-thumb"
-                  data-caption="Block Diagram"
-                  data-desc="Logical flow of sensor data from LDR &amp; current sensors through the ESP32 to the centralized web dashboard."
-                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
-                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Block Diagram:</strong> Logical flow of sensor data to ESP32.</p>
-              </div>
-              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
-                <img src="assets/ECE_photos/Circuit Diagram/Street Light circuit diagram.png" alt="Circuit Diagram"
-                  class="gallery-thumb"
-                  data-caption="Circuit Diagram"
-                  data-desc="Detailed wiring schematic showing connections between the ESP32, LDR sensor, current sensor, relay module, and power supply."
-                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
-                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Circuitry:</strong> Detailed wiring for LDR and Current sensors.</p>
-              </div>
-              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
-                <img src="assets/ECE_photos/Hardware/WhatsApp Image 2026-03-23 at 8.53.10 PM.jpeg" alt="Hardware Prototype"
-                  class="gallery-thumb"
-                  data-caption="Hardware Prototype"
-                  data-desc="Physical prototype built on a general-purpose PCB, featuring the ESP32 module, LDR, current sensor, and bridge rectifier circuit assembled and wired for testing."
-                  style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;" />
-                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Hardware:</strong> Prototype build on general-purpose PCB.</p>
-              </div>
-              <div class="gallery-item" style="background: #fff; padding: 10px; border-radius: 12px; border: 1px solid var(--border);">
-                <img src="assets/ECE_photos/Simulation/Screenshot 2026-04-08 000420.png" alt="Simulation/Dashboard"
-                  class="gallery-thumb"
-                  data-caption="Web Dashboard — Live Monitoring"
-                  data-desc="Real-time web dashboard built with Django showing streetlight status per node (Green = Working, Red = Fault). Event-driven updates reduce unnecessary network polling."
-                  style="width: 100%; height: 180px; object-fit: contain; border-radius: 8px; cursor: zoom-in;" />
-                <p style="font-size: 0.85rem; margin-top: 8px; color: var(--muted); text-align: center;"><strong>Dashboard:</strong> Real-time monitoring and alert interface.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="education-ece" class="section reveal">
-        <h2>Education</h2>
-        <div class="timeline">
-          <article>
-            <h3>B.E. Electronics &amp; Communication Engineering — Anna University</h3>
-            <p>Sri Venkateswaraa College of Technology | 2022 - 2026 | CGPA: 7.51 / 10</p>
-          </article>
-          <article>
-            <h3>Higher Secondary (HSC) — Tamil Nadu State Board</h3>
-            <p>V.H.N Hr. Sec. School | 2022 | 75.16%</p>
-          </article>
-          <article>
-            <h3>SSLC — Tamil Nadu State Board</h3>
-            <p>V.H.N Hr. Sec. School | 2020 | 66.66%</p>
-          </article>
-        </div>
-      </section>
-    </div>
-
-    <section id="contact" class="section contact reveal">
-      <h2>Let's Work Together</h2>
-      <p>Whether it's data analytics or an electronics project, I'm ready to collaborate.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="mailto:premarvinthg@gmail.com">Email Me</a>
-        <a class="button ghost" href="https://linkedin.com/in/prem-arvinthg" target="_blank">LinkedIn</a>
+    <!-- ───────── CONTACT ───────── -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner">
+      <h2 id="contact-title" class="contact-title">Hiring for .NET or Angular work, or just want to talk shop?</h2>
+      <p class="contact-sub">Email is the quickest way to reach me.</p>
+      <div class="email-row">
+        <a class="email" href="mailto:premarvinthg@gmail.com">premarvinthg@gmail.com</a>
+        <button class="btn btn-line copy" type="button" data-copy="premarvinthg@gmail.com">Copy email</button>
+      </div>
+      <ul class="contact-links">
+        <li><a href="https://www.linkedin.com/in/prem-arvinthg/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/prem-arvinth-g" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="tel:+916383473936">+91 63834 73936</a></li>
+      </ul>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> Prem Arvinth G</p>
+  <footer class="foot">
+    <p>© <span id="year">2026</span> Prem Arvinth G</p>
+    <p>Chennai, <span id="clock">--:--</span> IST</p>
+    <p>Hand-built with HTML, CSS and GSAP</p>
   </footer>
 
-  <!-- Lightbox Modal (ECE gallery zoom) -->
-  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <div class="lightbox-inner" onclick="event.stopPropagation()">
-      <button class="lightbox-close" onclick="closeLightbox()">&#10005;</button>
-      <img id="lightbox-img" src="" alt="" class="lightbox-img" />
-      <div class="lightbox-info">
-        <h3 id="lightbox-caption"></h3>
-        <p id="lightbox-desc"></p>
-      </div>
+  <!-- Command palette -->
+  <div class="palette" id="palette" role="dialog" aria-modal="true" aria-label="Jump to" hidden>
+    <div class="palette-box">
+      <label class="sr-only" for="palette-input">Search sections and actions</label>
+      <input id="palette-input" type="text" placeholder="Go to a section or run an action…" autocomplete="off" spellcheck="false"
+        role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list" />
+      <ul id="palette-list" role="listbox"></ul>
+      <p class="palette-hint"><kbd>↑</kbd><kbd>↓</kbd> to move, <kbd>Enter</kbd> to open, <kbd>Esc</kbd> to close</p>
     </div>
   </div>
 
-  <script src="script.js?v=10"></script>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
